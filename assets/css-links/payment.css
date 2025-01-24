@@ -1,0 +1,152 @@
+.paymentMethodLabel{
+    text-align: center;
+    font-size: 1.8rem;
+}
+#paymentMethodCard{
+    height: 800px;
+    max-width: var(--max-width);
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.paymentMethodCard{
+    flex: 1 1 500px;
+    max-width: 800px;
+}
+.paymentlabel{
+    display: grid;
+    gap: 10px;
+}
+.paymentlabel > p > span{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.paymentlabel > button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    transition: 0.15s ease-in-out;
+
+}
+.paymentlabel > button > img{
+    height: 20px;
+}
+
+
+/* styling sa main section of payment method*/
+.paymentMethodWrapper{
+    border: 1px solid var(--lightGray);
+    padding: 25px 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.paymentMethodList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.paymentImgCon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.paymentImgCon > img{
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* Card payment styling*/
+.cardPaymentWrapper > img{
+    height: 30px;
+    margin-left: 50px;
+}
+.cardCon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardImgWrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cardImgWrapper > img{
+    height: 30px;
+}
+/* other payment method styling ( tulad ng gcash paymaya ) */
+.cardsListCon{
+    padding: 0 80px
+}
+.cardsListCon > img{
+    height: 30px;
+    margin-top: -50px;
+}
+
+/*Personal Information*/
+.personalInformation > p{
+    color: var(--lightGray);
+}
+.personalInformation > button{
+    width: 100%;
+    padding: 15px;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: 0.15s ease-in-out;
+}
+.paymentlabel > button:hover,
+.personalInformation > button:hover{
+    background-color: #191919c9;
+}
+
+
+/*Summary component styling*/
+.summary{
+    height: 350px;
+    flex: 1 1 500px;
+}
+.summary > h1{
+    margin-bottom: 30px;
+}
+.summaryContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.summaryContainer > ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+}
+.summaryList > li{
+    width: 100%;
+}
+.summaryList > li > .nameOfItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.summaryList > li > span{
+    color: var(--lightGray);
+    /* margin-left: 30px; */
+}
+
+
+

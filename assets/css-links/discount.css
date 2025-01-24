@@ -1,0 +1,29 @@
+#discountSection{
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+
+}
+.coupon{
+    height: 250px;
+    flex: 1 0 400px;
+    background-color: var(--black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.coupon:nth-child(1){
+    background-image: url(../images/voucher.jpg);
+}
+.coupon:nth-child(2){
+    background-image: url(../images/mega\ discount.webp);
+    flex: 2 1 300px;
+}
+.coupon:nth-child(3){
+    background-image: url('../images/weekly\ sale.jpg');
+    
+}

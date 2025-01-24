@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --max-width: 1650px;
+
+    /* variable para sa colors */
+    --black: #191919ea;
+    --lightGray: rgb(187, 174, 174);
+    --white: #ffffff;
+    --off-white:#f5f5f5;
+}
+body{
+    padding: 0 20px;
+}
